@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SinauPintar - Tutor AI Pribadi Anda</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>SinauPintar</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#quiz">Kuis Diagnostik</a></li>
+                <li><a href="#plan">Rencana Belajar</a></li>
+                <li><a href="#practice">Latihan</a></li>
+                <li><a href="#explanation">Penjelasan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Selamat Datang di SinauPintar</h2>
+            <p>Platform tutor pribadi berbasis AI untuk pengalaman belajar yang dipersonalisasi.</p>
+            <button id="start-quiz-btn">Mulai Kuis Diagnostik</button>
+        </section>
+
+        <section id="quiz" class="hidden">
+            <h2>Kuis Diagnostik</h2>
+            <div id="quiz-container">
+                <!-- Pertanyaan kuis akan dimasukkan di sini oleh JavaScript -->
+            </div>
+            <button id="submit-quiz-btn">Selesaikan Kuis</button>
+        </section>
+
+        <section id="plan" class="hidden">
+            <h2>Rencana Belajar Pribadi Anda</h2>
+            <div id="plan-content">
+                <!-- Rencana belajar akan dimasukkan di sini oleh JavaScript -->
+            </div>
+        </section>
+
+        <section id="practice" class="hidden">
+            <h2>Soal Latihan Adaptif</h2>
+            <div id="practice-content">
+                <!-- Soal latihan akan dimasukkan di sini oleh JavaScript -->
+            </div>
+            <button id="new-question-btn">Minta Soal Baru</button>
+        </section>
+
+        <section id="explanation" class="hidden">
+            <h2>Penjelasan Konsep Adaptif</h2>
+            <input type="text" id="concept-input" placeholder="Masukkan konsep yang ingin Anda pelajari">
+            <button id="get-explanation-btn">Dapatkan Penjelasan</button>
+            <div id="explanation-content">
+                <!-- Penjelasan akan dimasukkan di sini oleh JavaScript -->
+            </div>
+        </section>
+
+        <section id="voice-input-section" class="hidden">
+            <h2>Jawab dengan Suara</h2>
+            <p>Klik tombol di bawah dan ucapkan jawaban Anda.</p>
+            <button id="start-record-btn">Mulai Merekam</button>
+            <button id="stop-record-btn" disabled>Berhenti Merekam</button>
+            <p><strong>Jawaban Anda:</strong> <span id="voice-result"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SinauPintar. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
