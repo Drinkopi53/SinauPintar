@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- API Configuration ---
-    const API_KEY = 'AIzaSyDet_RXvk9Xb1W67qxe0aoIr_iCst2qOt0';
+    const API_KEY = 'MASUKKAN_KUNCI_API_ANDA_DI_SINI'; // PENTING: Ganti dengan kunci API Anda sendiri
     const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
 
     // --- Element Selectors ---
